@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fondo base -->
+    <rect width="1920" height="1080" fill="#1a1a1a"/>
+    
+    <!-- Patrón de gaming -->
+    <g fill="#333" opacity="0.1">
+        <!-- Control de juego -->
+        <path d="M100,100 L200,100 L200,200 L100,200 Z" transform="translate(100,100)"/>
+        <circle cx="150" cy="150" r="20"/>
+        <circle cx="150" cy="150" r="10" fill="#ff4d4d"/>
+        
+        <!-- Botones de acción -->
+        <circle cx="300" cy="150" r="15"/>
+        <circle cx="350" cy="150" r="15"/>
+        <circle cx="325" cy="125" r="15"/>
+        
+        <!-- Repite el patrón -->
+        <g transform="translate(400,0)">
+            <path d="M100,100 L200,100 L200,200 L100,200 Z"/>
+            <circle cx="150" cy="150" r="20"/>
+            <circle cx="150" cy="150" r="10" fill="#ff4d4d"/>
+            <circle cx="300" cy="150" r="15"/>
+            <circle cx="350" cy="150" r="15"/>
+            <circle cx="325" cy="125" r="15"/>
+        </g>
+        
+        <!-- Más repeticiones -->
+        <g transform="translate(800,0)">
+            <path d="M100,100 L200,100 L200,200 L100,200 Z"/>
+            <circle cx="150" cy="150" r="20"/>
+            <circle cx="150" cy="150" r="10" fill="#ff4d4d"/>
+            <circle cx="300" cy="150" r="15"/>
+            <circle cx="350" cy="150" r="15"/>
+            <circle cx="325" cy="125" r="15"/>
+        </g>
+    </g>
+    
+    <!-- Líneas decorativas -->
+    <g stroke="#ff4d4d" stroke-width="2" opacity="0.1">
+        <line x1="0" y1="200" x2="1920" y2="200"/>
+        <line x1="0" y1="400" x2="1920" y2="400"/>
+        <line x1="0" y1="600" x2="1920" y2="600"/>
+        <line x1="0" y1="800" x2="1920" y2="800"/>
+        <line x1="0" y1="1000" x2="1920" y2="1000"/>
+    </g>
+</svg> 

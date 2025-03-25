@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fondo del logo -->
+    <rect width="200" height="50" fill="#333"/>
+    
+    <!-- Texto "WEEKEND" -->
+    <text x="20" y="35" font-family="Arial" font-size="24" font-weight="bold" fill="#ff4d4d">
+        WEEKEND
+    </text>
+    
+    <!-- Texto "PLAY" -->
+    <text x="120" y="35" font-family="Arial" font-size="24" font-weight="bold" fill="#fff">
+        PLAY
+    </text>
+    
+    <!-- Línea decorativa -->
+    <line x1="20" y1="40" x2="180" y2="40" stroke="#ff4d4d" stroke-width="2"/>
+</svg> 
