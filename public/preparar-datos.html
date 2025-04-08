@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preparar Datos de Noticias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 20px 0;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #estadoConexion {
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .info {
+            background-color: #e8f5e9;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Preparar Datos de Noticias</h1>
+        <div class="info">
+            <p>Este script:</p>
+            <ol>
+                <li>Obtendrá todas las noticias de weekendplay.es</li>
+                <li>Generará dos archivos:</li>
+                <ul>
+                    <li><strong>datos-noticias.json</strong>: Formato JSON para importar a la base de datos</li>
+                    <li><strong>datos-noticias.txt</strong>: Formato de texto para revisar los datos</li>
+                </ul>
+            </ol>
+        </div>
+        <div id="estadoConexion">Esperando para iniciar...</div>
+        <button id="prepararDatos">Preparar Datos</button>
+    </div>
+
+    <script type="module" src="js/preparar-datos.js"></script>
+</body>
+</html> 

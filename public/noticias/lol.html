@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends, el videojuego competitivo por excelencia - Weekend Play</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../images/logo.svg" alt="Weekend Play Logo">
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../servicios.html">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="../noticias.html" class="active">Noticias</a></li>
+                <li><a href="#contacta">Contacta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="noticia-completa">
+            <div class="noticia-header">
+                <div class="noticia-meta">
+                    <span class="fecha">5 de marzo de 2022</span>
+                    <span class="categoria">eSports</span>
+                </div>
+                <h1>League of Legends, el videojuego competitivo por excelencia</h1>
+            </div>
+
+            <div class="noticia-contenido">
+                <p>League of Legends se ha convertido en uno de los juegos más populares del mundo, especialmente en el ámbito competitivo. Descubre por qué este MOBA ha revolucionado el mundo de los eSports:</p>
+
+                <h2>¿Qué hace especial a League of Legends?</h2>
+                <ul>
+                    <li>Comunidad global de millones de jugadores</li>
+                    <li>Actualizaciones regulares y balanceo constante</li>
+                    <li>Diversidad de campeones y estilos de juego</li>
+                    <li>Liga profesional de alto nivel</li>
+                    <li>Sistema de ranking competitivo</li>
+                </ul>
+
+                <h2>Elementos clave del juego</h2>
+                <p>Los aspectos fundamentales que definen LoL:</p>
+                <ul>
+                    <li>Estrategia y trabajo en equipo</li>
+                    <li>Objetivos del mapa (dragones, barón)</li>
+                    <li>Fases de juego (early, mid, late)</li>
+                    <li>Construcción de objetos</li>
+                    <li>Roles específicos (top, jungle, mid, adc, support)</li>
+                </ul>
+
+                <h2>Escena competitiva</h2>
+                <ul>
+                    <li>Liga Europea (LEC)</li>
+                    <li>Liga Norteamericana (LCS)</li>
+                    <li>Liga Coreana (LCK)</li>
+                    <li>Liga China (LPL)</li>
+                    <li>Campeonato Mundial anual</li>
+                </ul>
+
+                <div class="noticia-cta">
+                    <p>En WeekendPlay organizamos torneos de League of Legends y eventos especiales. Si quieres participar o formar parte de un equipo competitivo, contacta con nosotros.</p>
+                </div>
+            </div>
+
+            <div class="noticias-relacionadas">
+                <h2>Otras noticias de Weekend Play:</h2>
+                <ul>
+                    <li><a href="consejos-streaming.html">Consejos útiles para tu primer streaming</a></li>
+                    <li><a href="ps5.html">¿Qué puede ofrecerte la nueva Play Station 5?</a></li>
+                    <li><a href="videojuegos-educacion.html">¿Pueden los videojuegos usarse como una herramienta educativa?</a></li>
+                </ul>
+            </div>
+        </article>
+
+        <section id="newsletter">
+            <h2>¡No te pierdas ninguna de nuestras novedades!</h2>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Email" required>
+                <button type="submit">ok</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Puedes seguirnos:</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitch"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <p>WeekendPlay © 2021 - Política de Privacidad</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="cookie-consent">
+        <p>Utilizamos cookies en nuestra web para dar una mejor experiencia. Pulsando en Aceptar consientes a usar TODAS las cookies.</p>
+        <button class="accept-cookies">ACEPTAR</button>
+    </div>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html> 

@@ -3,206 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weekend Play - Eventos de Gaming</title>
-    <link rel="stylesheet" href="../style/style.css">
+    <title>Weekend Play - Eventos Gaming y Esports</title>
+    <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 </head>
 <body>
     <header>
+        <h1>Weekend Play</h1>
         <nav>
-            <div class="logo">
-                <img src="../images/logo.svg" alt="Weekend Play Logo">
-            </div>
-            <button class="menu-toggle" aria-label="Abrir menú">
-                <i class="fas fa-bars"></i>
-            </button>
-            <ul class="nav-links">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="noticias.html">Noticias</a></li>
-                <li><a href="#contacta">Contacta</a></li>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Equipos</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="hero">
-            <h1>COMIENZA LA PARTIDA</h1>
-            <h2>Sé parte del juego</h2>
-            <div class="hero-content">
-                <p>El videojuego representa una de las industrias más grandes del mundo y se constituye como un espacio con infinitas posibilidades, abre las puertas a movimientos urbanos. Los jugadores pueden expresar sus sentimientos, plasmar sus inquietudes y demostrar sus habilidades. En los últimos años, este sistema de entretenimiento virtual se ha transformado en una cultura.</p>
-                <p>Significa arte y va más allá de ser solo una reclamada opción lúdica con la que poder divertirse y jugar. Es un gran aliado social para la inclusión, la heterogeneidad, la sensibilización, la educación, la salud, y mucho más. Puede mejorar la vida de las personas y contribuir a un cambio.</p>
-            </div>
-        </section>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Eventos Gaming y Esports</h2>
+            <p>¡Descubre y participa en emocionantes eventos de gaming y esports!</p>
+            <a href="#" class="btn">Ver Eventos</a>
+        </div>
+    </section>
 
-        <section id="estadisticas">
-            <div class="stats-container">
-                <div class="stat-item">
-                    <h3>+100.000</h3>
-                    <p>Gamers</p>
-                </div>
-                <div class="stat-item">
-                    <h3>1.200</h3>
-                    <p>Clientes</p>
-                </div>
-                <div class="stat-item">
-                    <h3>803</h3>
-                    <p>Eventos</p>
-                </div>
-                <div class="stat-item">
-                    <h3>3</h3>
-                    <p>Países</p>
-                </div>
-            </div>
-        </section>
+    <section class="events">
+        <h2>Próximos Eventos</h2>
+        <div class="event-card">
+            <img src="images/event1.jpg" alt="Evento 1">
+            <h3>Evento de Gaming</h3>
+            <p>Descripción del evento</p>
+            <a href="#" class="btn">Ver Detalles</a>
+        </div>
+        <div class="event-card">
+            <img src="images/event2.jpg" alt="Evento 2">
+            <h3>Evento de Esports</h3>
+            <p>Descripción del evento</p>
+            <a href="#" class="btn">Ver Detalles</a>
+        </div>
+        <div class="event-card">
+            <img src="images/event3.jpg" alt="Evento 3">
+            <h3>Evento de Gaming</h3>
+            <p>Descripción del evento</p>
+            <a href="#" class="btn">Ver Detalles</a>
+        </div>
+    </section>
 
-        <section id="clientes">
-            <h2>Nuestros Clientes</h2>
-            <div class="clientes-grid">
-                <div class="cliente-card">
-                    <img src="../images/cliente1.svg" alt="Cliente 1">
-                    <h3>ESL Gaming</h3>
-                    <p>Organización líder en esports</p>
-                </div>
-                <div class="cliente-card">
-                    <img src="../images/cliente2.svg" alt="Cliente 2">
-                    <h3>Riot Games</h3>
-                    <p>Desarrollador de League of Legends</p>
-                </div>
-                <div class="cliente-card">
-                    <img src="../images/cliente3.svg" alt="Cliente 3">
-                    <h3>Twitch</h3>
-                    <p>Plataforma de streaming</p>
-                </div>
-                <div class="cliente-card">
-                    <img src="../images/cliente4.svg" alt="Cliente 4">
-                    <h3>PlayStation</h3>
-                    <p>Consola de videojuegos</p>
-                </div>
-                <div class="cliente-card">
-                    <img src="../images/cliente5.svg" alt="Cliente 5">
-                    <h3>Xbox</h3>
-                    <p>Consola de videojuegos</p>
-                </div>
-            </div>
-        </section>
+    <section class="about">
+        <h2>¿Qué es Weekend Play?</h2>
+        <p>Weekend Play es una plataforma que conecta a jugadores y fans de gaming y esports con eventos, torneos y competiciones emocionantes. Nuestra misión es promover la cultura del gaming y esports, y crear experiencias únicas y memorables para todos los amantes de los videojuegos.</p>
+    </section>
 
-        <section id="testimonios">
-            <h2>Qué dicen de nosotros</h2>
-            <div class="swiper testimonios-swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="testimonio">
-                            <p>"Lo mejor de Weekend Play es el equipo humano con el que cuenta, comprometidos y cuidadosos de hasta el último detalle"</p>
-                            <cite>Ignacio Chamorro, ESL Event Manager</cite>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonio">
-                            <p>"Experiencias únicas para el público que quieras. Te ofrecen propuestas a medida, se adaptan a tus objetivos."</p>
-                            <cite>Lorenzo Gómez, Cadena Ser</cite>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonio">
-                            <p>"Hemos trabajado con ellos en más de una ocasión, y seguiremos haciéndolo. Estamos deseando poder crear nuevos eventos."</p>
-                            <cite>Luis Carlos Romero, Ayto. de Aracena</cite>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-        </section>
+    <section class="teams">
+        <h2>Equipos Destacados</h2>
+        <div class="team-card">
+            <img src="images/team1.jpg" alt="Equipo 1">
+            <h3>Equipo de Gaming</h3>
+            <p>Descripción del equipo</p>
+        </div>
+        <div class="team-card">
+            <img src="images/team2.jpg" alt="Equipo 2">
+            <h3>Equipo de Esports</h3>
+            <p>Descripción del equipo</p>
+        </div>
+        <div class="team-card">
+            <img src="images/team3.jpg" alt="Equipo 3">
+            <h3>Equipo de Gaming</h3>
+            <p>Descripción del equipo</p>
+        </div>
+    </section>
 
-        <section id="noticias">
-            <h2>Últimas Noticias</h2>
-            <div class="noticias-grid">
-                <article class="noticia">
-                    <div class="fecha">3 de enero de 2023</div>
-                    <h3>Consejos útiles para tu primer streaming</h3>
-                    <p>Nadie comienza a ser streamer experto cuando se adentra en este universo, pero sí que hay algunas claves importantes a tener en cuenta para empezar...</p>
-                    <a href="#" class="read-more">Leer más</a>
-                </article>
-                <article class="noticia">
-                    <div class="fecha">16 de noviembre de 2022</div>
-                    <h3>¿Qué puede ofrecerte la nueva Play Station 5?</h3>
-                    <p>No debemos demonizar los videojuegos, hay muchos mitos alrededor de ellos que hacen que parezcan solo perjudiciales para la salud...</p>
-                    <a href="#" class="read-more">Leer más</a>
-                </article>
-                <article class="noticia">
-                    <div class="fecha">18 de septiembre de 2022</div>
-                    <h3>League of Legends, el videojuego competitivo por excelencia</h3>
-                    <p>El fenómeno de los esports sigue creciendo y League of Legends se mantiene como uno de los juegos más populares en la escena competitiva...</p>
-                    <a href="#" class="read-more">Leer más</a>
-                </article>
-                <article class="noticia">
-                    <div class="fecha">10 de julio de 2022</div>
-                    <h3>¿Pueden los videojuegos usarse como una herramienta educativa?</h3>
-                    <p>La gamificación en la educación está demostrando ser una herramienta muy efectiva para el aprendizaje...</p>
-                    <a href="#" class="read-more">Leer más</a>
-                </article>
-            </div>
-        </section>
-
-        <section id="newsletter">
-            <h2>¡No te pierdas ninguna de nuestras novedades!</h2>
-            <form class="newsletter-form">
-                <input type="email" placeholder="Email" required>
-                <button type="submit">ok</button>
-            </form>
-        </section>
-    </main>
+    <section class="contact">
+        <h2>Contáctanos</h2>
+        <form>
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Correo Electrónico">
+            <textarea placeholder="Mensaje"></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
 
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Puedes seguirnos:</h3>
-                <div class="social-links">
-                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-twitch"></i></a>
-                </div>
-            </div>
-            <div class="footer-section">
-                <p>WeekendPlay © 2021 - Política de Privacidad</p>
-            </div>
-        </div>
+        <p>&copy; 2023 Weekend Play. Todos los derechos reservados.</p>
     </footer>
-
-    <div id="cookie-consent">
-        <p>Utilizamos cookies en nuestra web para dar una mejor experiencia. Pulsando en Aceptar consientes a usar TODAS las cookies.</p>
-        <button class="accept-cookies">ACEPTAR</button>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script>
-        document.querySelector('.menu-toggle').addEventListener('click', function() {
-            document.querySelector('.nav-links').classList.toggle('active');
-        });
-
-        const swiper = new Swiper('.testimonios-swiper', {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            loop: true,
-            autoplay: {
-                delay: 5000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            }
-        });
-    </script>
 </body>
-</html>
+</html> 

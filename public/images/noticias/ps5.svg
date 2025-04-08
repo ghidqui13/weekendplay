@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <rect width="800" height="400" fill="#f5f5f5"/>
+    <g transform="translate(100, 100)">
+        <!-- Consola PS5 -->
+        <rect x="200" y="100" width="400" height="200" fill="#000000" rx="20"/>
+        <rect x="220" y="120" width="360" height="160" fill="#ffffff" rx="10"/>
+        
+        <!-- Botones -->
+        <circle cx="300" cy="200" r="20" fill="#000000"/>
+        <circle cx="500" cy="200" r="20" fill="#000000"/>
+        
+        <!-- Texto -->
+        <text x="400" y="100" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">PLAYSTATION 5</text>
+    </g>
+</svg> 

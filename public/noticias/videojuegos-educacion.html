@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Pueden los videojuegos usarse como una herramienta educativa? - Weekend Play</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../images/logo.svg" alt="Weekend Play Logo">
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../servicios.html">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="../noticias.html" class="active">Noticias</a></li>
+                <li><a href="#contacta">Contacta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="noticia-completa">
+            <div class="noticia-header">
+                <div class="noticia-meta">
+                    <span class="fecha">10 de julio de 2022</span>
+                    <span class="categoria">Educación</span>
+                </div>
+                <h1>¿Pueden los videojuegos usarse como una herramienta educativa?</h1>
+            </div>
+
+            <div class="noticia-contenido">
+                <p>Los videojuegos han evolucionado más allá del simple entretenimiento y se han convertido en una herramienta educativa poderosa. Aquí te explicamos cómo pueden beneficiar el aprendizaje:</p>
+
+                <h2>Beneficios educativos de los videojuegos</h2>
+                <ul>
+                    <li>Desarrollo de habilidades cognitivas</li>
+                    <li>Mejora de la coordinación mano-ojo</li>
+                    <li>Fomento del pensamiento estratégico</li>
+                    <li>Desarrollo de habilidades sociales</li>
+                    <li>Aprendizaje de idiomas</li>
+                </ul>
+
+                <h2>Tipos de juegos educativos</h2>
+                <p>Existen diferentes categorías de juegos educativos:</p>
+                <ul>
+                    <li>Juegos de matemáticas y lógica</li>
+                    <li>Simuladores históricos</li>
+                    <li>Juegos de construcción y creatividad</li>
+                    <li>Juegos de resolución de problemas</li>
+                    <li>Juegos de estrategia</li>
+                </ul>
+
+                <h2>Implementación en el aula</h2>
+                <p>Los videojuegos pueden integrarse en el proceso educativo de varias formas:</p>
+                <ul>
+                    <li>Como complemento a las lecciones tradicionales</li>
+                    <li>Para reforzar conceptos aprendidos</li>
+                    <li>Como herramienta de evaluación</li>
+                    <li>Para fomentar el trabajo en equipo</li>
+                    <li>Como motivación para el aprendizaje</li>
+                </ul>
+
+                <div class="noticia-cta">
+                    <p>En WeekendPlay ofrecemos programas educativos que utilizan videojuegos como herramienta de aprendizaje. Si quieres implementar esta metodología en tu centro educativo, contacta con nosotros.</p>
+                </div>
+            </div>
+
+            <div class="noticias-relacionadas">
+                <h2>Otras noticias de Weekend Play:</h2>
+                <ul>
+                    <li><a href="consejos-streaming.html">Consejos útiles para tu primer streaming</a></li>
+                    <li><a href="ps5.html">¿Qué puede ofrecerte la nueva Play Station 5?</a></li>
+                    <li><a href="lol.html">League of Legends, el videojuego competitivo por excelencia</a></li>
+                </ul>
+            </div>
+        </article>
+
+        <section id="newsletter">
+            <h2>¡No te pierdas ninguna de nuestras novedades!</h2>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Email" required>
+                <button type="submit">ok</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Puedes seguirnos:</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitch"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <p>WeekendPlay © 2021 - Política de Privacidad</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="cookie-consent">
+        <p>Utilizamos cookies en nuestra web para dar una mejor experiencia. Pulsando en Aceptar consientes a usar TODAS las cookies.</p>
+        <button class="accept-cookies">ACEPTAR</button>
+    </div>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - WeekendPlay</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .navbar {
+            background-color: #000;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .nav-links a:last-child {
+            color: #ff6b00;
+        }
+
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 72px);
+            padding: 2rem;
+            gap: 4rem;
+        }
+
+        .contact-image {
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .contact-image img {
+            width: 100%;
+            height: auto;
+            filter: grayscale(100%);
+        }
+
+        .contact-content {
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .contact-title {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .contact-phone {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            color: #333;
+        }
+
+        .contact-text {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .simple-text {
+            color: #666;
+            font-style: italic;
+        }
+
+        footer {
+            background-color: #000;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-text {
+            font-size: 0.9rem;
+        }
+
+        .footer-logos img {
+            height: 40px;
+            margin: 0 1rem;
+        }
+
+        .social-links img {
+            height: 24px;
+            margin: 0 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .contact-container {
+                flex-direction: column;
+                gap: 2rem;
+            }
+
+            .contact-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="WeekendPlay">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="">Proyectos</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="contacto.html">Contacta</a>
+        </div>
+    </nav>
+
+    <div class="contact-container">
+        <div class="contact-image">
+            <img src="img/contact-image.jpg" alt="Persona usando un teléfono móvil" 
+                 onerror="this.src='https://images.unsplash.com/photo-1511493219201-01010890ddb7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'">
+        </div>
+        <div class="contact-content">
+            <h1 class="contact-title">Sé parte<br>del juego</h1>
+            <p class="contact-phone">627 771 018</p>
+            <p class="contact-text">Cuéntanos tus objetivos y logra posicionarte en los primeros puestos.</p>
+            <p class="contact-text">Pincha en el icono de abajo a la izquierda para mandarnos un mensaje directo.</p>
+            <p class="simple-text">¡Así de simple!</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-text">
+                Disfruta de las<br>
+                últimas novedades :
+                <button style="background: transparent; border: 1px solid white; color: white; padding: 5px 15px; margin-left: 10px; cursor: pointer;">
+                    SUSCRÍBETE
+                </button>
+            </div>
+            <div class="footer-logos">
+                <img src="img/eu-funding.png" alt="Fondos Europeos">
+            </div>
+            <div class="social-links">
+                <p style="margin-bottom: 10px;">Puedes seguirnos :</p>
+                <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="img/linkedin.png" alt="LinkedIn"></a>
+                <a href="#"><img src="img/youtube.png" alt="YouTube"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 

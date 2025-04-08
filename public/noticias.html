@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias - WeekendPlay</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="/" class="logo">WeekendPlay</a>
+            <nav>
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/noticias.html">Noticias</a></li>
+                    <li><a href="/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="news-section">
+        <div class="news-container">
+            <h1>Últimas Noticias</h1>
+            <div class="news-grid" id="noticias-container">
+                <!-- Las noticias se cargarán dinámicamente aquí -->
+            </div>
+        </div>
+    </main>
+
+    <section class="newsletter-section">
+        <div class="newsletter-container">
+            <h2 class="newsletter-title">¡No te pierdas ninguna de nuestras novedades!</h2>
+            <p>Regístrate para estar al día con las últimas noticias de WeekendPlay.</p>
+            <form class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Tu correo electrónico" required>
+                <button type="submit" class="newsletter-btn">Suscribirse</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Sobre Nosotros</h3>
+                <p>WeekendPlay es tu fuente de noticias sobre videojuegos y entretenimiento digital.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/noticias.html">Noticias</a></li>
+                    <li><a href="/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Twitter</a>
+                    <a href="#" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="js/agregar-noticias.js"></script>
+</body>
+</html> 
